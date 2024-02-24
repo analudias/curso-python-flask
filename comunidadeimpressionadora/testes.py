@@ -1,5 +1,5 @@
 from main import app, database
-from models import Usuario, Post
+from comunidadeimpressionadora.models import Usuario, Post
 
 # with app.app_context():
 #     database.create_all()
@@ -37,6 +37,6 @@ from models import Usuario, Post
 #     print(post.titulo)
 #     print(post.autor.email)
 
-with app.app_context():
-    database.drop_all()
-    database.create_all()
+# with app.app_context():
+#     database.drop_all()
+#     database.create_all()
